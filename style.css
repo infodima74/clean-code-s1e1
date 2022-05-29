@@ -15,14 +15,6 @@
   .header__link {
     font-family: Loto, cursive;
   }
-  
-  @media (max-width:768px) {
-  
-    .header {
-      text-align: center;
-    }
-  
-  }
   .main {
     display: block;
     width: 500px;
@@ -147,4 +139,12 @@
   
   .tasks__elem_edit .task__elem__text {
     display: none;
+  }
+   
+  @media (max-width:768px) {
+  
+    .header {
+      text-align: center;
+    }
+  
   }
